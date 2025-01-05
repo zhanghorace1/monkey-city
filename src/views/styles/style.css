@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.survey-monkey-info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+}
+
+/* table styles*/
+#surveyTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Georgia', serif; /* Elegant font */
+    text-align: center; /* Center text in columns */
+  }
+  
+  #surveyTable th, #surveyTable td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for table cells */
+  }
+  
+  #surveyTable th {
+    background-color: #f4f4f4; /* Light background for header */
+    font-weight: bold;
+  }
+  
+  #surveyTable td a {
+    color: #007BFF; /* Elegant link color */
+    text-decoration: none;
+  }
+  
+  #surveyTable td a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+  }
+  
+  #surveyTable tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for rows */
+  }
+  
+  #surveyTable tr:hover {
+    background-color: #f1f1f1; /* Hover effect on rows */
+  }
+  
